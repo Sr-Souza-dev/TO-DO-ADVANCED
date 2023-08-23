@@ -57,7 +57,7 @@ Tarefa extra (opcional): Implemente um campo de pesquisa para filtrar tarefas co
 Tarefa extra (opcional): Adicione paginação às listas de tarefas, limitando cada página a um máximo de 4 tarefas. Use SKIP e LIMIT nas consultas do MongoDB para a paginação. Realize essa paginação no lado do servidor usando publicações do Meteor. (Opcional)
 
 ## Run
-Para executar o projeto, é necessário tornar as variáveis de ambiente visíveis ao meteor, para isso execute:
-    ```sh
-        meteor --settings development.json
+Para executar o projeto, é necessário tornar as variáveis de config visíveis ao meteor, para isso execute:
+    sh```
+        meteor --settings settings.json
     ```
