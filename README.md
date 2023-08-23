@@ -59,6 +59,6 @@ Tarefa extra (opcional): Adicione paginação às listas de tarefas, limitando c
 ## Run
 Para executar o projeto, é necessário tornar as variáveis de config visíveis ao meteor, para isso execute:
 
-    sh```
+    ```sh
         meteor --settings settings.json
     ```
