@@ -1,0 +1,23 @@
+.card-status{
+    margin: 10px;
+    background-color: #024959;
+    padding: 10px;
+    border-radius: 15px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-status h2{
+    font-size: 35px;
+    color: white;
+    margin: 3px;
+}
+
+.card-status h4{
+    font-size: 15px;
+    color: white;
+    margin: 3px;
+}

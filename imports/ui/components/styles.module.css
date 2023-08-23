@@ -1,0 +1,113 @@
+/* ------------------ IMAGES STYLES -------------------*/
+.image-circle{
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    object-position: center;
+    margin: 0 auto;
+    display: block;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0 0 10px rgba(0,0,0,.4);
+}
+
+/* ------------------ TEXT STYLES -------------------*/
+.text-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: #024959;
+}
+.text-title-dark {
+    font-size: 25px;
+    font-weight: bold;
+    color: #F2E3D5;
+}
+.private-text{
+    color: black;
+    background-color: rgb(255, 0, 0, 0.7);
+    margin: 0px;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+
+/* ------------------ BUTTON STYLES -------------------*/
+.button-default {
+    background-color: #012E40;
+    display: block;
+    align-self: center;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.button-default:hover {
+    background-color: #024959;
+}
+
+.button-icon {
+    border-radius: 100px;
+    display: block;
+    margin: auto;
+    border: none;
+    padding: 0px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.btt-icon {
+    color: #024959;
+    margin: 1px;
+}
+.btt-icon:hover {
+    color: #026773;
+}
+
+/* ------------------ INPUT STYLES -------------------*/
+.input-field {
+    width: 300px;
+    border-bottom: 1px solid #024959;
+    background-color: transparent;
+    color: #026773;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 10px;
+    
+}
+.input-field:focus {
+    outline: none;
+    border-bottom: 1px solid #3CA6A6;
+}
+.input-label {
+  position: relative;
+  display: flex;
+  margin-bottom: 5px;
+  color: #024959;
+}
+.input-icon{
+    display: flex;
+    color: #024959;
+    margin-left: -30px;
+    margin-top: -10px;
+}
+.input-field:focus + .input-icon {
+    color: #3CA6A6;
+}
+
+/* ------------------ ALERT STYLES -------------------*/
+.default-bg{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    z-index: 3;
+}
+.default-card-alert {
+    background-color: #fdfdeb;
+    position: absolute;
+    max-width: 50%;
+    border-radius: 15px;
+    padding: 10px 20px;
+    z-index: 5;
+}

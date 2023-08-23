@@ -1,0 +1,96 @@
+body {
+  font-family: sans-serif;
+  background-color: #024959;
+  background-image: url('images/back.png'); /* Substitua pelo caminho da sua imagem */
+
+  background-repeat: repeat;
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  padding: 0;
+  margin: 0;
+
+  font-size: 14px;
+}
+
+p{
+  font-size: 15px;
+  color: #024959;
+}
+
+h2{
+  font-size: 20px;
+  font-weight: bold;
+  color: #024959;
+}
+
+h4{
+  color: #024959;
+  font-size: 15px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row; /* Opcional, pois "row" é o valor padrão */
+  justify-content: space-between; /* Exemplo de alinhamento horizontal */
+  align-items: center; /* Exemplo de alinhamento vertical */
+}
+
+.full-page {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100vw;
+  top: 0;
+  left: 0;
+
+  position: fixed;
+  z-index: 100;
+  display: flex;
+  justify-content: center;    /* Centraliza horizontalmente */
+  align-items: center;        /* Centraliza verticalmente */
+}
+
+.container{
+  margin: 0px 0px;
+  padding: 10px 30px 30px 30px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  @media screen and (min-width: 600px) {
+      margin: 0 30px;
+  }
+}
+
+.button-simple {
+  background-color: transparent;
+  border: none;
+}
+
+.button-simple:hover {
+  cursor: pointer;
+}
+
+
+input[type="number"] {
+  -moz-appearance: textfield; /* Firefox */
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
