@@ -78,12 +78,12 @@ export default function Home ({user}){
       <div className="row">
         <Avatar
           alt="Remy Sharp"
-          src={user.profile.image || "/images/profile.png"}
+          src={user?.profile?.image || "/images/profile.png"}
           sx={{ width: 200, height: 200, margin: 'auto'}}
         />
 
         <div style={{margin: 'auto', display:'flex', flexDirection: 'column'}}>
-          <h2 style={{alignSelf: 'center', marginBottom:'0px'}}> Bem Vindo {(user?.profile?.name || user?.username ) + " " + user?.profile?.lastname}</h2>
+          <h2 style={{alignSelf: 'center', marginBottom:'0px'}}> Bem Vindo {(user?.profile?.name || user?.username ) + " " + (user?.profile?.lastname || " ")}</h2>
           <h4 style={{alignSelf: 'center', marginTop:'0px'}}>Você está logado como {user?.username}!</h4>
           <div className='row'>
             <FormControlLabel control={<Switch checked={status} onChange={handleStatus} />} label="Concluidas" style={{color:"#024959"}}/>

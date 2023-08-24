@@ -23,7 +23,6 @@ export default function SignIn () {
 
         Meteor.loginWithPassword(email, password, (error) => {
             if(error && error.reason === "User not found"){
-                console.log("testando user cadastro 2")
                 setAlertDF({
                     title: "Usuário não encontrado",
                     content: "O usuário informado não foi encontrado, deseja criar um novo usuário a partir destas informações?",

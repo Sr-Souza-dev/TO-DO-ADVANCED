@@ -1,6 +1,5 @@
 ## Lista de Tarefas Avançada
-- [Acessar Site](https://todo-rosa.meteorapp.com/)
-
+Para acessar o site [Click Aqui](https://todo-rosa.meteorapp.com/), mas tenha paciência pois se trata de um upload free disponibilizado pelo [Galaxy](https://galaxy.meteor.com/).
 
 ### Descrição
 Esta é uma lista de tarefas avançada para criar uma aplicação de lista de afazeres com recursos adicionais, como autenticação de usuários, roteamento, design usando Material-UI e muito mais.
